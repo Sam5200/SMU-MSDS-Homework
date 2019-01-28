@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.travis\.yml$
+^cran-comments\.md$
+^data_import_procedure\.md$
+^\.httr-oauth$
+^README\.md$
+^README\.Rmd$
+^data-raw$
+^docs$
