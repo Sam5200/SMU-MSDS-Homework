@@ -1,0 +1,44 @@
+---
+title: "Analysis of Beer Trends"
+author: "Karen Somes,  Laurence Clinton, Samuel Arellano"
+output:   
+          html_document:
+          keep_md: yes
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Analysis of Beer Trends
+
+<!-- install packages -->
+```{r echo=FALSE, include=FALSE}
+
+    install.packages('dplyr', repos="http://cran.us.r-project.org")
+    install.packages('knitr', repos="http://cran.us.r-project.org")
+    install.packages('rvest', repos="http://cran.us.r-project.org")
+    install.packages('ggplot2', repos="http://cran.us.r-project.org")
+
+    
+```
+      **load libararies**
+      
+      library(knitr)
+      library(rvest)
+      library(ggplot2)
+      library(data.table)
+
+```{r echo=TRUE, include=FALSE}
+    knitr::opts_chunk$set(echo = T, results = "hide")
+
+      
+      library(knitr)
+      library(rvest)
+      library(ggplot2)
+      library(dplyr)
+
+```
+
+
+### 
